@@ -1,0 +1,201 @@
+:root {
+    /* --nombre-variable */
+    --font-primary: 'Poppins', sans-serif;
+    --color-primary: #A60311;
+    --color-secondary: #D9042B;
+    --color-text-primary: #D9CCB4;
+    --color-text-secondary: #D98E04;
+    --color-background: #590219;
+    --color-light: #F2F2F2;
+    --color-dark: #070C26;
+}/* 
+    Enfoque de diseño basado en sistemas para establecer reglas y patrones escalables y reutilizables.
+    Se personalizan variables para acceder a cualquier valor de una propiedad mediante la pseudoclase ":root" con la sintaxis --nombre-variable 
+    */
+
+
+
+body{background-color: var(--color-background);
+color:var(--color-light);
+font-family: var(--font-primary);}
+
+.position {
+width: 100px;
+height: 100px;
+background-color: var(--color-dark);
+}
+/*la posición estática esta dada por default del html*/
+#static{position: static;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: var(--color-text-secondary);}
+/*es posicionado de forma relativa al elemento anterior o posición original, y si permite movimiento mediante propiedades top, bottom, left, right */
+#relative{position: relative;
+    top: 3000px;
+    
+    left: 220px;
+ 
+    background-color: var(--color-primary);}
+
+#absolute{position: absolute;
+    top: 20px;
+    
+    left: 20px;
+    
+    background-color: var(--color-light);
+color:var(--color-dark)}
+#fixed{
+    left: 350px;
+    top: 500px;
+    position: fixed;
+    background-color: #D9042B;
+}
+
+#chat{
+    position: fixed;
+    width: 60px;
+    top: 520px;
+    left: 370px;
+    height: 60px;
+}
+#whatsappicon{
+    width: 100%;
+    
+}
+
+.display-inline{
+  
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-text-primary);
+    color: var(--color-dark);
+    text-align: center;
+    margin: 2px;
+}
+#display-1, #display-2{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-text-primary);
+    color: var(--color-dark);
+    text-align: center;
+    margin: 2px;
+}
+.display-block{
+   /*display: block;*/
+   display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-secondary);
+    text-align: center;
+    margin: 2px;
+}
+/*Para esconder contenido*/
+@media (max-width: 720px){
+.display-none{
+    display:none;}
+}
+/*display flex me permite trbajar de manera flexible con elementos anidados detro de un ancestro. El flexbox se aplica en el conteiner y por defult la dirección de fles es en filas (row). vamos a poder acceder a propiedades para modificar el comportamiento de los elementos 
+flex-direction: column, colum-reverse,row,row-reverse
+flex-wrap:wrap, nowrap, wrap-reverse
+justifi-content:center,flex-start, flex-end,space between,space around
+align -item: start,end,center
+aling -self:
+*/
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*align-items: center;*/
+
+    width: auto;
+    height: 350px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--color-secondary);
+
+}
+#Item-6{
+ 
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+.display-flex{
+   
+
+
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: var(--color-dark);
+}
+a {
+    text-decoration: none;
+    color: var(--color-light);
+}
+
+/*Git layout
+Elementos de una cuadricula grid:contenedor, item, celdas, ares,display:grid*/
+.display-grid {
+    background-color: var(--color-text-secondary);
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    border: solid var(--color-text-primary);
+}
+.grid {
+    grid-template-columns: auto;
+    /*grid-template-rows: auto;*/
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 3fr ;
+    width: auto;
+    height: 500px;
+    border: solid var(--color-text-primary) 0.7px;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
+header {
+    background-color:darkviolet;
+    grid-area: head;
+}
+
+aside {
+    background-color: seagreen;
+    grid-area: aside;
+}
+
+section {
+    background-color: peru;
+    grid-area: section;
+}
+
+article {
+    background-color: tomato;
+    grid-area: article;
+}
+
+footer {
+    background-color: deepskyblue;
+    grid-area: footer;
+}

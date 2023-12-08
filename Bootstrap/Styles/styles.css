@@ -1,0 +1,44 @@
+/*
+Estilos para el archivo Intro_web_6.html
+
+Estilos para el cuerpo y el Titular principal de la pagina
+Agregamos estilos con el selector:
+(#) - para Id
+(.)- para clases
+(elemento)nombre de la etiqueta- para elementos especificos
+([attribute]):para elementos que tienen un atributo específico, independientemente de su valor.*/
+body{
+    background-color: aquamarine;
+}
+h1,h2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#Clasecontenedor, #claseRow, #clasecol {
+color: aquamarine;
+background-color: cornflowerblue;
+border: 1px solid black;
+border-radius: 10px;
+margin-bottom: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+#NavPrincipal{
+    background-color: darkcyan;
+
+}
+.nav-link, .navbar-brand, .nav-link {
+    color: antiquewhite;
+}
+.nav-link:hover, .navbar-brand:hover, .nav-link:hover{
+    color: darkseagreen;
+}
+.navbar-toggler {
+    background-color: beige;
+}
+
+#DC{
+    background-color: rgb(63, 36, 17);
+}

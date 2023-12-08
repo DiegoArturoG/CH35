@@ -1,0 +1,21 @@
+:root {
+    --font-primery: Montserrat;
+    --font-secundary: Montserrat Alternates;
+    --font-one: Roboto;
+    --color-botton: #6B43FF; 
+    --color-text-pas: #D1D2FA;
+    --color-background: #FFFFFF;
+    --color-text:#1D1D1D;
+
+}
+
+.contenedor{
+    display: inline-block;
+width: 567px;
+height: 734px;
+top: 144px;
+left: 153px;
+opacity: 0.7px;
+border: 1px solid #D1D2FA;
+text-align: center;
+}
