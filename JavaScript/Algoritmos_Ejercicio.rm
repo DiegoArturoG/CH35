@@ -1,0 +1,36 @@
+Calcular el monto a pagar en una tienda si se aplica un 10% de descuento sobre el total de la compra
+1. Ingresa el total de tu compra 
+2. Aplica el descuento 10% 
+3. Monto a pagas con descuento
+Pseudocódigo:
+Total= Sumatoria (producto1 + producto2 + producto3 + n); 
+Descuento= 10% 
+funcion Descuento= (total*Descuento)/100
+totalApagar= Total- fincionDescuento 
+
+Cuál es el proceso para subir un video a tik tok
+1. Abre la aplicación TikTok en tu dispositivo móvil y asegúrate de tener una cuenta activa.
+2. Haz clic en el ícono + ubicado en la parte inferior de la pantalla para comenzar a crear un nuevo video.
+3. La pantalla de grabación se abrirá y tendrás diferentes opciones para personalizar tu video. Puedes agregar efectos especiales, filtros, música de fondo y más.
+4. Una vez que estés satisfecho con tu video, haz clic en el botón de grabación para comenzar a grabar. Puedes grabar videos de hasta 60 segundos de duración.
+5. Después de grabar, puedes agregar texto, pegatinas y filtros adicionales si lo deseas.
+6. selecciona la opción Compartir para subir tu video a TikTok. Puedes agregar una descripción, hashtags relevantes y etiquetas antes de compartirlo con la comunidad.
+Pseudocódigo:
+
+
+
+
+Algoritmo, como hacer palomitas en la estufa
+1. Tener todos los insumos ( maíz palomero, olla, aceite, estufa, contenedor). 
+2. Poner la olla con aceite a precalentar 
+3. Agregar a la olla las palomitas (), taparla y comenzar a moverla constantemente durante varios min. 
+4. Revisar que la mayoría de las palomitas esten hechas y pasar al contenedor. 
+4. Fin del proceso. 
+Pseudocódigo: 
+1.Inicio
+2.Mostrar: ”Cuanto palomitas vas hacer”:CantPal
+3.Mostrar: ”Coloca el aceite”:CantAse
+4.Mostrar: “Colocar Tapa”
+5.ProPal= (concinar=100%deCarga)
+6.Mostrar ”Tus Palomitas estan lsitas” ProPal
+7.fin

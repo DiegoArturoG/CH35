@@ -1,0 +1,19 @@
+{
+  "name": "npm-parimpar",
+  "version": "1.0.0",
+  "description": "par o impar de un numero ",
+  "main": "index.js",
+  "type": "module"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "keywords": [
+    "\"generation\"",
+    "\"paroimpar\"",
+    "\"ch35\""
+  ],
+  "author": "Diego",
+  "license": "ISC"
+  
+}
