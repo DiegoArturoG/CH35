@@ -100,3 +100,5 @@ let reversech35 = ch35.reverse();
 console.log(ch35); 
 
 //Investigar: -sort, -forEach, -slice, -splice, indexOf
+
+

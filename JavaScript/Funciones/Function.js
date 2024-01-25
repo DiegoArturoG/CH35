@@ -20,7 +20,7 @@ function greeting() {
 console.log(greeting());
 
 //función que retorna y recibe parámetros
-function sumar(x, y){
+function sumarx(x, y){
     return x + y;
 }
 let resultado = sumar (255, 245);
