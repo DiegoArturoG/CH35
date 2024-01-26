@@ -1,5 +1,5 @@
 // Tenemos un li de productos
-
+//Diego Arturo González 4/5
 const productos = [
   { nombre: "Zapato negro", tipo: "zapato", color: "negro", imagen : "./taco-azul.jpg"},
   { nombre: "Zapato azul", tipo: "zapato", color: "azul", img: "./taco-azul.jpg" },
