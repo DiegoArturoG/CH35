@@ -1,4 +1,6 @@
 package revisioncodigo6;
+// Diego Arturo González Rodríguez  5/5
+
 import java.util.Scanner;//Importar scanner
 public class codigo6 {
     public static void main(String[] args) {

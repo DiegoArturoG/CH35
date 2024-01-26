@@ -1,3 +1,6 @@
+
+// Diego Arturo González Rodríguez  5/5
+
 package org.generation.revisioncodigo5;
 import java.util.Scanner;//Agregar scanner 
 
