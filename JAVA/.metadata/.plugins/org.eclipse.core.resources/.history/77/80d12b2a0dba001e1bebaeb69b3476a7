@@ -1,0 +1,13 @@
+package org.generation.overloading;
+
+public class SumaMain {
+	public static void main(String[] args) {
+		//Invocamos el método de tipo static mediante su clase 
+		int suma1 = Suma.sumar(3, 0);
+		double suma2 = Suma.sumar(suma1, suma1);
+		
+		System.out.println("La suma de enteros nos da " +suma1);
+		System.out.println("La suma de decimales me da" +suma2);
+	}
+
+}

@@ -1,0 +1,31 @@
+package org.generation.letras;
+
+public class LetrasMain {
+public static void  main (String[] args) {
+	//instanciar objetos (letras y contador)
+	Letras letras = new Letras();
+	letras.mostrarMensaje("Escribe un texto y te mostraré el número de vocales, consonantes, números y simbolos que tiene tu mensaje");
+	String palabra = letras.leerEntrada(); //Guardamos el texto introducciodo por el usuario
+	
+	//Invocar los métodos que me permiten contar los caracteres
+	
+	Contador contador= new Contador();
+	int totalVocales = contador.contarVocales(palabra);
+	System.out.println("Total de vocales: "+totalVocales);
+	int totalNumeros = contador.contarNumeros(palabra);
+	System.out.println("Total de numeros: "+totalVocales);
+	int totalConsonantes= contador.contarConsonantes(palabra);
+	System.out.println("Total de consonantes: "+totalVocales);
+	int totalSimbolos= contador.contarSimbolos(palabra);
+	System.out.println("Total de simbolos: "+totalVocales);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  }
+}

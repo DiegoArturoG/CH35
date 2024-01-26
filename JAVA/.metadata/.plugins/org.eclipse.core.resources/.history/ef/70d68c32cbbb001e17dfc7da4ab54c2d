@@ -1,0 +1,39 @@
+package org.generation.employee.manager;
+
+import org.generation.employee.Employee;
+
+public class Manager extends Employee{
+
+	/*
+	 * la clase manager sirve como sublase (Clase hija) por lo tanto debe extender (heredar) desde la superclase (Employee) para poder acceder a los atributos y metodos de la super clase 
+	 * 
+	 */
+	//1.- Arributos
+	private int antiguedad;
+	private double bono;
+	
+	//2.- Constructor 
+	public Manager(String nombreCompleto, int id, double salario, String puesto, int antiguedad, double bono) {
+		super(nombreCompleto, id, salario, puesto);
+		this.antiguedad = antiguedad;
+		this.bono = bono;
+	}
+	
+	//3- Métodos del usuario
+	public void organizarReuniones() {
+		System.out.println("El manager "+this.getNombreCompleto()+ "Concova a una reunion");
+	}
+	//Método calcular saliro sin bono es decir metodo calcularSalario en Employee
+	double salarioBase = super.calcularSalario();
+	
+	
+	//Overriding (aulación de métodos)
+	/*En la empresa los Managers reciben un bono de $1000 al cumplir su primer año de antigüedad.
+	 * Después de recibir su primer bono, cada año recibe un bono de $500*/
+	public void calcularSalario() {
+		
+	}
+	//4.- Getters y setters
+	//5.- to String
+	
+}

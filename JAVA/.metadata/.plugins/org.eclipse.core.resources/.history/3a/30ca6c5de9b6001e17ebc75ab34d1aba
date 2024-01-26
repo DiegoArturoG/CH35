@@ -1,0 +1,29 @@
+package org.generatin.collections;
+
+import java.util.Arrays;
+
+public class ArrayListCollections {
+
+	public static void main(String[] args) {
+		//~~~~~~~ Array ~~~~~~~//
+		String[]names = {"Diego", "Rocio", "Aldo", "Rey","Arturo","Karen"};
+		//Imprimir Arrays
+		System.out.println(Arrays.toString(names));
+		int[] edades= {12,34,43,32,21,65,54};
+		System.out.println(Arrays.toString(edades));
+		//Aceder a cada elemento del Array
+		String name1= names[0];
+		System.out.println("El nombre es: "+name1);
+		int edad1= edades[4];
+		System.out.println("El nombre es  "+name1+ " es de "+edad1);
+		
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

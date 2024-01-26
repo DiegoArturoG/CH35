@@ -1,0 +1,32 @@
+package org.generation.letras;
+
+import java.util.Scanner;
+
+/*
+ * Crear un programa que le solicite al ususarioun mensaje y cuente cuantas vocales, cosonantes, numeros y caracteres contiene dicho mensaje
+ *       Letras: Métodos para interactuar con el usuario 
+ *       LetrasMain: vamos a instanciar los objetos 
+ *       Contador: métodos para contar vocales, constantes, numeros y caracteres. 
+ * 
+ * 
+ * */
+
+public class Letras {
+
+	//Para que el usuario interactue, definimos un escaner 
+	
+	Scanner scanner = new Scanner(System.in);
+	
+	//Método para el scanner 
+	
+	public String leerEntrada() {
+		return scanner.nextLine();
+	}
+	
+	//Método para proporcionar un texto a el usuario
+	public void mostrarMensaje (String mensaje) {
+		System.out.println(mensaje);
+	}
+	
+	
+}

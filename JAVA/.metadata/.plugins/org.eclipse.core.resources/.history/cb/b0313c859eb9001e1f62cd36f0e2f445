@@ -1,0 +1,39 @@
+package com.hackerranck.ifelse;
+import java.util.Scanner;
+
+public class ElseIfEjercicio {
+	public static void main (String[] args) {
+
+		//Scanner para leeer entrada del usuario 
+		
+		Scanner scan= new Scanner(System.in);
+		
+		//Solicitud para que el ususario ingrese un número
+		System.out.println("Enter a whole number from 1 to 100: ");
+		
+		//Declaración de varialble de tipo entero y lectura del mismo
+		
+		int number = scan.nextInt();
+		
+		//Loop if-else
+		
+		if (even(number)) {
+			System.out.println("Not Weird par");
+		} else {
+			System.out.println("Weird impar");
+		}
+		
+		//Close scanner
+		scan.close();
+		
+	}
+		
+	//Method for par or impar number 
+	
+	static boolean even( int num) {
+		return num % 2 == 0 && num >=1 && num <=100; 
+		
+	}
+		
+
+}

@@ -1,0 +1,37 @@
+package org.generation.exceptions;
+
+public class Division {
+	public static int dividir(int num1, int num2) {
+		return num1/num2;
+	}
+	
+public static void main(String [] args) {
+	
+	
+	/*
+	 * La clase Exception nos permite manejar cualquier caso excepcional con nuestro codigo es el equivalente a los errores
+	 * 
+	 * Utiliza una estructura de contro try-catch que permite manejar las excepciones 
+	 * try. envuelve el codigo que puede generar una excepción y lo evalua 
+	 * catch. contiene el codigo que se ejecuta cuando se lanza la excepción 
+	 * 
+	 * Sintaxis 
+	 *              try {
+	 *              //Codigo protegido
+	 *              } catch(ExceptionName e){
+	 *              //Bloque de codigo
+	 *              }
+	 * finally siempre se ejecuta y se utiliza para mostrar un mensaje en cas de ser invocado podemos precsendir de finilly
+	 * */
+	try {
+		int resultado =dividir(10,0);
+		System.out.println("El resultado de la div es " +resultado);
+	} catch (ArithmeticException e) {
+		System.out.println("El resultado no es divisible ");
+	} finally {
+		System.out.println("\u001B[32mPrograma finalizado\u001B[0m");  
+	}
+	
+	
+}
+}

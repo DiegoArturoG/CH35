@@ -1,0 +1,23 @@
+package org.generation.employee;
+
+public class EmployeeMain {
+    public static void Main (String[] args) {
+    	
+    	//Instanciar objetos 
+    	
+    	Employee Diego = new 
+    	
+    	
+    	
+    	System.out.println(Diego);
+    	
+// Aplicando métodos definidos previamente 
+    	
+    Diego.infoGeneral();
+    	
+    	
+    	
+    	
+    	
+    }
+}

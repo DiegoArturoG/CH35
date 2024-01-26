@@ -1,0 +1,10 @@
+package org.generation.employee;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		Employee Rocio = new Employee("Rocio Hernndez", 40132, 18000, "Front-end");
+
+	}
+
+}

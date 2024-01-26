@@ -1,0 +1,18 @@
+package org.generation.employee;
+
+public class EmployeeMain {
+    public static void main (String[] args) {
+    	
+    	//Instanciar objetos 
+    	
+    	Employee Diego = new Employee("Diego", "González", 31212, 12500, "Inge");
+    	
+    	Employee Daniel = new Employee();
+    	
+    	
+    	
+    	
+    	
+    	
+    }
+}

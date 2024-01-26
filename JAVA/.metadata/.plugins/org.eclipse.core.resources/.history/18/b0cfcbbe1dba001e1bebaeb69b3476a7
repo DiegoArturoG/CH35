@@ -1,0 +1,35 @@
+package org.generation.iterable;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
+public class iterableMain {
+ public static void main(String[] args) {
+	 //Podemos iterar sobre una coleccion de 3 maneras;
+	 // 1.- Iteración mediante cilco for-each
+	 List<String> nombres = new ArrayList<String>();
+	 
+	 System.out.println("******Primer metodo****");
+	 nombres.addAll(Arrays.asList("Braulio","Franco","Arturo","Ruben", "Marco","Rey"));
+	 
+	 for (String nombre: nombres){
+System.out.println(nombre);
+	 }
+	 
+	 System.out.println("******Iterador segundo metodo****");
+	 // 2.- Iterar mediante Iterator. 
+	 List<String> apellidos = new ArrayList<String>();
+	 apellidos.addAll(Arrays.asList("Gonzalez","Rodriguez","Aleman","Garcia", "Cardoso","Ceja"));
+	 
+	 //Utilizar un nuevo iterador y le vamos a parar el metodo .iter
+	 Iterator<String> iterador= apellidos.iterator();
+	 
+	 //Utilizando while devuelve verdadero si la iteración tiene más elementos, sino, se termina el ciclo 
+	 while(iterador.hasNext()) {
+		 String elemento = iterador.next();
+		 System.out.println(elemento);
+	 }
+ }
+}
